@@ -110,5 +110,8 @@ SpellChecker.getSpellCheckerLocale = (electronLocale) => {
   if (electronLocale.match(/^pt-?/)) {
     return 'pt-BR';
   }
+  if (electronLocale.match(/^sv-?/)) {
+    return 'sv-SE';
+  }
   return 'en-US';
 };
